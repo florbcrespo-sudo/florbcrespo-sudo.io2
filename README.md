@@ -1,36 +1,42 @@
-# Catálogo de Acolchados
+# Dulce Descanso
 
 ## Descripción
 
-Este proyecto consiste en una página web de catálogo de acolchados desarrollada con HTML y CSS.
+Dulce Descanso es una página web de catálogo de blancos para el hogar desarrollada con HTML y CSS.
 
-La página permite visualizar distintos modelos de acolchados con sus respectivas imágenes, descuentos y precios.
+El sitio permite visualizar distintos productos como acolchados y sábanas, mostrando imágenes, descuentos y precios de manera organizada y visual.
 
-Además, incluye un formulario de contacto funcional conectado mediante Formspree para que los usuarios puedan realizar consultas.
+También incluye un formulario de contacto funcional conectado mediante Formspree para que los usuarios puedan realizar consultas fácilmente.
 
 ## Tecnologías utilizadas
 
 - HTML5
 - CSS3
 - Flexbox
+- Google Fonts
 - Formspree
-
-## Estructura del proyecto
-
-- index.html
-- style.css
-- README.md
-- acolchado1.jpg
-- acolchado2.jpg
-- acolchado3.jpg
 
 ## Funcionalidades
 
 - Catálogo visual de productos
 - Diseño responsive básico
 - Navegación interna
-- Formulario de contacto
+- Efectos hover en productos
+- Formulario de contacto funcional
+- Diseño moderno y elegante
+
+## Estructura del proyecto
+
+- index.html
+- style.css
+- README.md
+- acolchado1.jpeg
+- acolchado2.jpeg
+- acolchado3.png
+- sabanafloreada.jpeg
+- sabanadiseño.jpeg
+- sabanaestilo.jpeg
 
 ## Autor
 
-Proyecto realizado por Florencia crespo
+Proyecto realizado por Florencia Crespo

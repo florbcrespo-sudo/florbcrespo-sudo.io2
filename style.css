@@ -1,110 +1,144 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background: #f8f5f2;
-  color: #333;
+    background: #f8f5f2;
+    color: #333;
 }
 
 header {
-  background: #8b5e3c;
-  color: white;
-  text-align: center;
-  padding: 25px;
+    background: #8B5E3C;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 nav {
-  background: #6f472b;
-  padding: 15px;
-  text-align: center;
+    background: #6f472b;
+    padding: 15px;
+    text-align: center;
 }
 
 nav a {
-  color: white;
-  margin: 15px;
-  text-decoration: none;
-  font-weight: bold;
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
 }
 
 main {
-  padding: 40px;
+    padding: 40px;
 }
 
 h2 {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
 }
 
 .catalogo {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .producto {
-  background: white;
-  width: 300px;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  text-align: center;
+    background: white;
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
 }
 
 .producto img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .producto h3 {
-  margin: 15px 0;
+    margin: 18px 0 10px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .descuento {
-  color: green;
-  font-weight: bold;
+    color: green;
+    font-weight: bold;
 }
 
 .precio {
-  color: #c0392b;
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 15px;
+    color: #c0392b;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 form {
-  max-width: 500px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 input,
 textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 button {
-  background: #8b5e3c;
-  color: white;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+    background: #8B5E3C;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6f472b;
 }
 
 footer {
-  background: #8b5e3c;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+    background: #8B5E3C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
